@@ -95,3 +95,146 @@ body {
   color: #fff;
  }
 }
+
+/*----------------content section----------------*/
+
+.bloc1 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 15px;
+}
+
+.bloc1 .bc {
+ width: 50%;
+ height: 550px;
+}
+
+.bloc1 .bloc-1 {
+ background-image: url(https://cdn.aistoucuisine.com/assets/c1df6071-cff4-4de9-ab6e-fd14651e2c41/thiebou%20guinar%20thieb%20poulet.webp?format=webp&quality=75&width=1536);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+}
+
+.bloc1 .bloc-2 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 8px;
+ padding: 20px 50px;
+ background-color: #bbbbbb;
+}
+
+.bloc1 .bloc-2 h2 {
+ font-size: 50px;
+ text-align: center;
+}
+
+.bloc1 .bloc-2 p {
+ text-align: center;
+}
+
+.bloc1 .bloc-2 button {
+ background-color: #417aff;
+ color: #fff;
+ border: none;
+ padding: 10px 30px;
+ border-radius: 2rem;
+}
+
+.bloc2 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 15px;
+}
+
+.bloc2 .bc {
+ width: 50%;
+ height: 350px;
+}
+
+.bloc2 .bloc-2 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 8px;
+ padding: 20px 50px;
+ background-color: #c5b8b8;
+}
+
+.bloc2 .bloc-2 h2 {
+ font-size: 20px;
+ text-align: center;
+}
+
+.bloc2 .bloc-2 p {
+ text-align: center;
+}
+
+.bloc2 .bloc-2 button {
+ background-color: #5f6168;
+ color: #fff;
+ border: none;
+ padding: 10px 30px;
+ border-radius: 2rem;
+}
+
+.bloc2 .bloc-1 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.bloc2 .bloc-1 .image {
+ background-image: url(https://img.freepik.com/photos-gratuite/groupe-jeunes-amis-train-diner-ensemble_23-2148454081.jpg?t=st=1733456602~exp=1733460202~hmac=553d94e034bdd64abce2f4530b40eea4aae99dea86c224d30be62d641c322ad5&w=826);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ width: 100%;
+ height: 100%;
+}
+
+.bloc2 .content {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+
+.bloc2 .content .first img {
+ width: 100px;
+ height: 40px;
+}
+
+.bloc2 .content .third img {
+ margin-bottom: 15px;
+ width: 180px;
+ height: 80px;
+}
+
+.bloc2 .content .second {
+ width: 2px;
+ height: 45px;
+ background-color: #333;
+}
+
+.bloc1 .bloc-3 {
+ background-image: url(https://img.freepik.com/photos-gratuite/verre-jus-orange-fruits-frais-sol-glacons_1150-23625.jpg?t=st=1733458698~exp=1733462298~hmac=c2584d8c3f358959e02e092bd10d512046ece1776b52adf65ca08accfb120189&w=360);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+}
+
+.bloc1 .bloc-2 .bloc-btn2 {
+ background: none;
+ color: #fff;
+ border: none;
+ border: 2px solid #417aff !important;
+ padding: 10px 30px;
+ border-radius: 2rem;
+}
