@@ -1,240 +1,299 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans&display=swap");
 
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
- font-family: "Poppins", sans-serif;
- overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
 /*----------------Navbar----------------*/
 
 .navbar {
- box-shadow:
-  0 1px 2px rgba(0, 0, 0, 0.1),
-  0 2px 2px rgba(0, 0, 0, 0.06),
-  0 0px 2px rgba(0, 0, 0, 0.07);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.1),
+    0 2px 2px rgba(0, 0, 0, 0.06),
+    0 0px 2px rgba(0, 0, 0, 0.07);
 }
 
 .navbar a {
- color: #333;
+  color: #333;
 }
 
 .navbar a:hover {
- color: #331;
+  color: #331;
 }
 
 .btnn .first-btn {
- font-size: 15px;
- background: #417aff;
- color: #fff;
- border: none;
- border-radius: 2rem;
- padding: 3px 20px;
- margin-right: 15px;
+  font-size: 15px;
+  background: #417aff;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 3px 20px;
+  margin-right: 15px;
 }
 
 .btnn .first-btn:hover {
- background: #6a96fd;
- color: #fff;
+  background: #6a96fd;
+  color: #fff;
 }
 
 .btnn .second-btn {
- font-size: 15px;
- background: #000;
- color: #fff;
- border: none;
- border-radius: 2rem;
- padding: 3px 20px;
+  font-size: 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  padding: 3px 20px;
 }
 
 .btnn .second-btn:hover {
- background: #333;
+  background: #333;
 }
 
 @media screen and (max-width: 768px) {
- .colss {
-  text-align: center;
-  background-color: #417aff;
- }
- .colss ul li .nav-link {
-  width: 100%;
-  color: rgba(255, 255, 255, 1) !important;
-  border: none;
-  pad: 10px;
-  border-bottom: 1px solid #ccc;
- }
+  .colss {
+    text-align: center;
+    background-color: #417aff;
+  }
+  .colss ul li .nav-link {
+    width: 100%;
+    color: rgba(255, 255, 255, 1) !important;
+    border: none;
+    pad: 10px;
+    border-bottom: 1px solid #ccc;
+  }
 
- /*.btnn{
+  /*.btnn{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }*/
 
- .btnn .btnnn {
-  width: 100%;
-  color: #fff;
- }
+  .btnn .btnnn {
+    width: 100%;
+    color: #fff;
+  }
 
- .btnnn a {
-  color: #fff;
- }
+  .btnnn a {
+    color: #fff;
+  }
 
- .btnnn .first-btn {
-  border: none;
-  color: #fff;
- }
+  .btnnn .first-btn {
+    border: none;
+    color: #fff;
+  }
 
- .btnnn .second-btn {
-  background: none;
-  color: #fff;
- }
+  .btnnn .second-btn {
+    background: none;
+    color: #fff;
+  }
 }
 
 /*----------------content section----------------*/
 
 .bloc1 {
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .bloc1 .bc {
- width: 50%;
- height: 550px;
+  width: 50%;
+  height: 550px;
 }
 
 .bloc1 .bloc-1 {
- background-image: url(https://cdn.aistoucuisine.com/assets/c1df6071-cff4-4de9-ab6e-fd14651e2c41/thiebou%20guinar%20thieb%20poulet.webp?format=webp&quality=75&width=1536);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center center;
+  background-image: url(https://cdn.aistoucuisine.com/assets/c1df6071-cff4-4de9-ab6e-fd14651e2c41/thiebou%20guinar%20thieb%20poulet.webp?format=webp&quality=75&width=1536);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .bloc1 .bloc-2 {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- gap: 8px;
- padding: 20px 50px;
- background-color: #bbbbbb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 50px;
+  background-color: #bbbbbb;
 }
 
 .bloc1 .bloc-2 h2 {
- font-size: 50px;
- text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
 
 .bloc1 .bloc-2 p {
- text-align: center;
+  text-align: center;
 }
 
 .bloc1 .bloc-2 button {
- background-color: #417aff;
- color: #fff;
- border: none;
- padding: 10px 30px;
- border-radius: 2rem;
+  background-color: #417aff;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 2rem;
 }
 
 .bloc2 {
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .bloc2 .bc {
- width: 50%;
- height: 350px;
+  width: 50%;
+  height: 350px;
 }
 
 .bloc2 .bloc-2 {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- gap: 8px;
- padding: 20px 50px;
- background-color: #c5b8b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 50px;
+  background-color: #c5b8b8;
 }
 
 .bloc2 .bloc-2 h2 {
- font-size: 20px;
- text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 .bloc2 .bloc-2 p {
- text-align: center;
+  text-align: center;
 }
 
 .bloc2 .bloc-2 button {
- background-color: #5f6168;
- color: #fff;
- border: none;
- padding: 10px 30px;
- border-radius: 2rem;
+  background-color: #5f6168;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 2rem;
 }
 
 .bloc2 .bloc-1 {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .bloc2 .bloc-1 .image {
- background-image: url(https://img.freepik.com/photos-gratuite/groupe-jeunes-amis-train-diner-ensemble_23-2148454081.jpg?t=st=1733456602~exp=1733460202~hmac=553d94e034bdd64abce2f4530b40eea4aae99dea86c224d30be62d641c322ad5&w=826);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center center;
- width: 100%;
- height: 100%;
+  background-image: url(https://img.freepik.com/photos-gratuite/groupe-jeunes-amis-train-diner-ensemble_23-2148454081.jpg?t=st=1733456602~exp=1733460202~hmac=553d94e034bdd64abce2f4530b40eea4aae99dea86c224d30be62d641c322ad5&w=826);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
 }
 
 .bloc2 .content {
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .bloc2 .content .first img {
- width: 100px;
- height: 40px;
+  width: 100px;
+  height: 40px;
 }
 
 .bloc2 .content .third img {
- margin-bottom: 15px;
- width: 180px;
- height: 80px;
+  margin-bottom: 15px;
+  width: 180px;
+  height: 80px;
 }
 
 .bloc2 .content .second {
- width: 2px;
- height: 45px;
- background-color: #333;
+  width: 2px;
+  height: 45px;
+  background-color: #333;
 }
 
 .bloc1 .bloc-3 {
- background-image: url(https://img.freepik.com/photos-gratuite/verre-jus-orange-fruits-frais-sol-glacons_1150-23625.jpg?t=st=1733458698~exp=1733462298~hmac=c2584d8c3f358959e02e092bd10d512046ece1776b52adf65ca08accfb120189&w=360);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center center;
+  background-image: url(https://img.freepik.com/photos-gratuite/verre-jus-orange-fruits-frais-sol-glacons_1150-23625.jpg?t=st=1733458698~exp=1733462298~hmac=c2584d8c3f358959e02e092bd10d512046ece1776b52adf65ca08accfb120189&w=360);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .bloc1 .bloc-2 .bloc-btn2 {
- background: none;
- color: #fff;
- border: none;
- border: 2px solid #417aff !important;
- padding: 10px 30px;
- border-radius: 2rem;
+  background: none;
+  color: #fff;
+  border: none;
+  border: 2px solid #417aff !important;
+  padding: 10px 30px;
+  border-radius: 2rem;
+}
+
+/*----------------Footer----------------*/
+
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer .foot1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.footer .foot1 h3 {
+  font-size: 16px;
+}
+
+.footer .foot1 a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+.fon .icon {
+  display: flex;
+}
+
+.link-bas {
+  display: flex;
+  gap: 10px;
+}
+
+.link-bas a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+.link-bas .line {
+  margin-top: 12px;
+  width: 1px;
+  height: 16px;
+  background: #333;
+}
+
+.copy p {
+  font-size: 14px;
+  color: #333;
 }
